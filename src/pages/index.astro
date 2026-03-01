@@ -1,0 +1,230 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HeroCarousel from "../components/Sections/HeroCarousel.astro";
+import EventList from "../components/Sections/EventList.astro";
+import Button from "../components/UI/Button.astro";
+---
+
+<BaseLayout>
+  <HeroCarousel
+    title="SOCIDAIN"
+    subtitle="Sociedad Científica de Ciencia de Datos e Inteligencia de Negocios"
+    images={[
+      "/uploads/portada/portada.png",
+      "/uploads/eventoenclase/eventoenclase-4.webp",
+      "/uploads/inaguracióndelasociedad/inaguracióndelasociedad-2.webp",
+    ]}
+    ctaText="Conócenos"
+    ctaLink="/about-us"
+    secondaryCtaText="Nuestros Proyectos"
+    secondaryCtaLink="/ministries"
+  />
+
+  <!-- About Section -->
+  <section class="py-16 bg-gray-50">
+    <div class="container">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div>
+          <img
+            src="/uploads/clasenormal/clasenormal-1.webp"
+            alt="SOCIDAIN en Clase"
+            class="rounded-lg shadow-lg object-cover w-full max-w-md mx-auto h-auto"
+          />
+        </div>
+
+        <div>
+          <h2 class="text-3xl md:text-4xl font-bold mb-6">
+            Liderando la Innovación en Datos
+          </h2>
+          <p class="text-gray-700 mb-6 text-lg">
+            SOCIDAIN es un espacio vibrante donde la curiosidad científica se
+            encuentra con el potencial tecnológico. Nuestra misión es empoderar
+            a la próxima generación de científicos de datos.
+          </p>
+          <p class="text-gray-700 mb-8 text-lg">
+            Ya seas un principiante o un experto, te invitamos a ser parte de
+            nuestra red de colaboración y aprendizaje. Juntos estamos
+            transformando el futuro mediante el análisis inteligente de la
+            información.
+          </p>
+
+          <Button href="/about-us"> Conoce más sobre nosotros </Button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Events Section -->
+  <EventList />
+
+  <!-- Ejes Fundamentales (Areas) -->
+  <section class="py-20 bg-white">
+    <div class="container">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-5xl font-bold mb-4">
+          Nuestros Ejes Fundamentales
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          Trabajamos de forma integral para potenciar el talento y el bienestar
+          de los estudiantes de Univalle.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <!-- Area Académico -->
+        <div
+          class="bg-gray-50 p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
+        >
+          <div
+            class="w-14 h-14 bg-primary-100 rounded-lg flex items-center justify-center mb-6"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-8 w-8 text-primary-600"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
+              ></path>
+            </svg>
+          </div>
+          <h3 class="text-2xl font-bold mb-4">Académico</h3>
+          <p class="text-gray-700 leading-relaxed">
+            Proyectos de investigación, talleres impartidos por estudiantes
+            (Python, Machine Learning, SQL, Big Data, Git), resolución de
+            problemas y charlas con profesionales destacados.
+          </p>
+        </div>
+
+        <!-- Area Desarrollo Profesional -->
+        <div
+          class="bg-gray-50 p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
+        >
+          <div
+            class="w-14 h-14 bg-secondary-100 rounded-lg flex items-center justify-center mb-6"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-8 w-8 text-secondary-600"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+              ></path>
+            </svg>
+          </div>
+          <h3 class="text-2xl font-bold mb-4">Desarrollo Profesional</h3>
+          <p class="text-gray-700 leading-relaxed">
+            Talleres de empleabilidad (armado de CV, LinkedIn, entrevistas
+            técnicas), "Startup Weekend" y mentorías para proyectos innovadores.
+          </p>
+        </div>
+
+        <!-- Area Social -->
+        <div
+          class="bg-gray-50 p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
+        >
+          <div
+            class="w-14 h-14 bg-primary-100 rounded-lg flex items-center justify-center mb-6"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-8 w-8 text-primary-600"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+              ></path>
+            </svg>
+          </div>
+          <h3 class="text-2xl font-bold mb-4">Social</h3>
+          <p class="text-gray-700 leading-relaxed">
+            Actividades de voluntariado, proyectos de impacto social con datos
+            (MVP), e-sports, juegos de mesa y "Data Science Meetups" para
+            networking.
+          </p>
+        </div>
+
+        <!-- Area Cultural -->
+        <div
+          class="bg-gray-50 p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
+        >
+          <div
+            class="w-14 h-14 bg-secondary-100 rounded-lg flex items-center justify-center mb-6"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-8 w-8 text-secondary-600"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+              ></path>
+            </svg>
+          </div>
+          <h3 class="text-2xl font-bold mb-4">Cultural</h3>
+          <p class="text-gray-700 leading-relaxed">
+            Visitas a museos, cine foros tecnológicos, clubes de lectura y
+            salidas gastronómicas para cuidar el equilibrio vida-estudio.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section
+    class="py-20 text-white"
+    style="background: linear-gradient(135deg, #600022 0%, #900033 50%, #600022 100%)"
+  >
+    <div class="container">
+      <div class="max-w-3xl mx-auto text-center">
+        <h2
+          class="text-3xl md:text-4xl font-bold mb-6 text-white text-center w-full"
+        >
+          ¿Listo para Unirte a SOCIDAIN?
+        </h2>
+        <p class="text-xl mb-8">
+          Te invitamos a ser parte de nuestra comunidad científica. Participa en
+          proyectos, asiste a nuestros eventos y contribuye al avance de los
+          datos.
+        </p>
+
+        <div class="flex flex-wrap justify-center gap-4">
+          <Button href="/contact" variant="primary" size="lg">
+            ¡Quiero Unirme!
+          </Button>
+
+          <Button
+            href="/events"
+            variant="outline"
+            size="lg"
+            class="bg-white/10 text-white border-white hover:bg-white hover:text-gray-900 backdrop-blur-sm"
+          >
+            Ver Eventos
+          </Button>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

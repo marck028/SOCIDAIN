@@ -1,0 +1,105 @@
+---
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="bg-[#600022] text-white py-16 border-t border-red-900/20">
+  <div class="container mx-auto px-4">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
+      <!-- Identity Section -->
+      <div>
+        <h2
+          class="text-2xl font-bold font-serif mb-4 tracking-tighter text-white"
+        >
+          SOCIDAIN
+        </h2>
+        <p class="text-white text-sm leading-relaxed mb-6 opacity-90">
+          Sociedad Científica de Ciencia de Datos e Inteligencia de Negocios de
+          la Universidad Univalle. Impulsando la innovación académica y ética en
+          el análisis de datos.
+        </p>
+        <div
+          class="flex items-center gap-2 grayscale brightness-200 opacity-80 hover:opacity-100 transition-opacity"
+        >
+          <img
+            src="/favicon.png"
+            alt="Univalle Logo"
+            class="h-8 w-8 object-contain"
+          />
+          <span class="text-xs font-bold uppercase tracking-widest text-white"
+            >Univalle Cochabamba</span
+          >
+        </div>
+      </div>
+
+      <!-- Focus Areas (Unique content) -->
+      <div>
+        <h3 class="text-sm font-bold uppercase tracking-widest text-white mb-6">
+          Nuestras áreas
+        </h3>
+        <ul class="space-y-3 text-sm text-white">
+          <li class="flex items-center gap-2">
+            <span class="w-1.5 h-1.5 rounded-full bg-white opacity-80"></span>
+            Machine Learning & AI
+          </li>
+          <li class="flex items-center gap-2">
+            <span class="w-1.5 h-1.5 rounded-full bg-white opacity-80"></span>
+            Big Data Analytics
+          </li>
+          <li class="flex items-center gap-2">
+            <span class="w-1.5 h-1.5 rounded-full bg-white opacity-80"></span>
+            Business Intelligence
+          </li>
+          <li class="flex items-center gap-2">
+            <span class="w-1.5 h-1.5 rounded-full bg-white opacity-80"></span>
+            Ética y Gobernanza de Datos
+          </li>
+        </ul>
+      </div>
+
+      <!-- Direct Contact / Join CTA -->
+      <div class="flex flex-col items-start md:items-end">
+        <h3
+          class="text-sm font-bold uppercase tracking-widest text-white mb-6 font-sans"
+        >
+          Comunidad Científica
+        </h3>
+        <p class="text-white text-sm mb-6 md:text-right opacity-90">
+          ¿Interesado en formar parte de nuestra sociedad o colaborar en un
+          proyecto?
+        </p>
+        <a
+          href="https://wa.me/59177955656"
+          target="_blank"
+          class="bg-white text-[#600022] px-6 py-3 rounded-full text-sm font-bold hover:bg-white/90 transition-all transform hover:-translate-y-1 shadow-2xl flex items-center gap-2"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path>
+          </svg>
+          Unirse por WhatsApp
+        </a>
+      </div>
+    </div>
+
+    <!-- Academic Footer Bar -->
+    <div
+      class="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-white text-[10px] uppercase tracking-widest font-bold opacity-80"
+    >
+      <p>&copy; {currentYear} SOCIDAIN — Universidad Privada del Valle</p>
+      <div class="flex gap-4">
+        <span>Sede Central — Tiquipaya</span>
+        <span class="opacity-30">|</span>
+        <span>Cochabamba, Bolivia</span>
+      </div>
+    </div>
+  </div>
+</footer>

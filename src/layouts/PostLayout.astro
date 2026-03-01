@@ -1,0 +1,80 @@
+---
+export const layout = "../layouts/BaseLayout.astro";
+
+import PageHeader from "../components/Sections/PageHeader.astro";
+import { formatDate } from "../utils/dateUtils";
+
+export interface Props {
+  title: string;
+  description?: string;
+  image?: {
+    url: string;
+    alt: string;
+  };
+  date?: Date;
+  author?: string;
+  tags?: string[];
+  type?: "sermon" | "event" | "blog" | "ministry";
+}
+
+const {
+  title,
+  description,
+  image,
+  date,
+  author,
+  tags = [],
+  type = "blog",
+} = Astro.props;
+
+const seoType = "article";
+
+let pageTitle = title;
+if (type === "sermon") {
+  pageTitle = `Sermon: ${title}`;
+} else if (type === "event") {
+  pageTitle = `Event: ${title}`;
+} else if (type === "ministry") {
+  pageTitle = `${title} Ministry`;
+}
+
+const formattedDate = date ? formatDate(date) : null;
+---
+
+<!-- SEO props diteruskan oleh BaseLayout --><!-- Header & Footer hanya dipanggil sekali oleh BaseLayout -->
+<PageHeader title={title} />
+
+<main class="container py-8">
+  <div class="mx-auto max-w-3xl">
+    {
+      image && (
+        <div class="mb-8 overflow-hidden rounded-lg">
+          <img
+            src={image.url}
+            alt={image.alt}
+            class="object-cover w-full h-64 md:h-96"
+            loading="lazy"
+          />
+        </div>
+      )
+    }
+
+    <div class="mb-8">
+      {
+        tags.length > 0 && (
+          <div class="flex flex-wrap gap-2 mb-4">
+            {tags.map((tag) => (
+              <span class="px-3 py-1 text-xs font-medium text-primary-700 bg-primary-100 rounded-full">
+                {tag}
+              </span>
+            ))}
+          </div>
+        )
+      }
+    </div>
+
+    <div class="max-w-none">
+      <slot />
+    </div>
+  </div>
+</main>

@@ -1,0 +1,183 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHeader from "../../components/Sections/PageHeader.astro";
+import Card from "../../components/UI/Card.astro";
+import { getCollection } from "astro:content";
+import { formatDate } from "../../utils/dateUtils";
+import Button from "../../components/UI/Button.astro";
+
+// Get all blog posts
+const allPosts = await getCollection("blog", ({ data }) => {
+  return import.meta.env.PROD ? !data.draft : true;
+});
+
+// Sort by date (newest first)
+const posts = allPosts.sort(
+  (a, b) =>
+    new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime(),
+);
+---
+
+<BaseLayout
+  title="Blog - SOCIDAIN"
+  description="Explora los últimos artículos, investigaciones y tutoriales de nuestra comunidad de ciencia de datos."
+>
+  <PageHeader
+    title="Blog y Publicaciones"
+    subtitle="Perspectivas, investigaciones y tutoriales de nuestra comunidad científica"
+    backgroundImage={null}
+  />
+
+  <!-- Blog Posts List -->
+  <section class="py-16">
+    <div class="container">
+      {
+        posts.length > 0 ? (
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {posts.map((post) => (
+              <a
+                href={`/blog/${post.slug}`}
+                class="group bg-white rounded-3xl shadow-sm border border-gray-100 hover:shadow-2xl transition-all duration-500 p-8 flex flex-col h-full overflow-hidden relative"
+              >
+                <!-- Image circle next to title -->
+                <div class="flex items-start gap-4 mb-6">
+                  {post.data.image && (
+                    <div class="flex-shrink-0">
+                      <img
+                        src={post.data.image.url}
+                        alt={post.data.image.alt}
+                        class="w-16 h-16 rounded-full object-cover object-top border-4 border-black flex-shrink-0 shadow-md"
+                      />
+                    </div>
+                  )}
+                  <div class="flex-grow pt-1">
+                    <h3 class="text-xl font-bold text-gray-900 group-hover:text-primary-600 transition-colors line-clamp-2 leading-tight">
+                      {post.data.title}
+                    </h3>
+                  </div>
+                </div>
+
+                <div class="flex flex-col flex-grow">
+                  <!-- Metadata -->
+                  <div class="flex flex-wrap gap-4 mb-4 text-xs font-bold uppercase tracking-widest text-gray-400">
+                    <div class="flex items-center">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-3.5 w-3.5 mr-1.5 text-primary-300"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2.5"
+                          d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                        />
+                      </svg>
+                      {formatDate(post.data.pubDate)}
+                    </div>
+                    <div class="flex items-center">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-3.5 w-3.5 mr-1.5 text-primary-300"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2.5"
+                          d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+                        />
+                      </svg>
+                      {post.data.author}
+                    </div>
+                  </div>
+
+                  <p class="text-gray-600 mb-6 line-clamp-3 text-sm leading-relaxed">
+                    {post.data.description}
+                  </p>
+
+                  <div class="mt-auto pt-6 border-t border-gray-50 flex items-center text-primary-600 font-bold text-sm tracking-wide group-hover:gap-2 transition-all">
+                    <span>LEER TRABAJO</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 transform transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                    </svg>
+                  </div>
+                </div>
+              </a>
+            ))}
+          </div>
+        ) : (
+          <div class="text-center py-20 bg-gray-50 rounded-2xl border border-dashed border-gray-300">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-16 w-16 mx-auto text-gray-400 mb-4"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10l4 4v10a2 2 0 01-2 2z"
+              />
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M14 3v5h5"
+              />
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M8 11h8"
+              />
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M8 15h5"
+              />
+            </svg>
+            <h3 class="text-2xl font-bold text-gray-800 mb-2">
+              Aún no se publicaron trabajos
+            </h3>
+            <p class="text-gray-600 max-w-md mx-auto">
+              Estamos preparando contenido increíble para ti. ¡Vuelve pronto o
+              sé el primero en publicar!
+            </p>
+          </div>
+        )
+      }
+    </div>
+  </section>
+
+  <!-- Student Contribution CTA -->
+  <section class="py-20 bg-gray-50">
+    <div class="container text-center">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4">
+        ¿Te gustaría publicar tu trabajo?
+      </h2>
+      <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+        Invitamos a todos los estudiantes e investigadores de Univalle a
+        compartir sus hallazgos, tutoriales o análisis con nuestra comunidad
+        científica.
+      </p>
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <Button
+          href="https://wa.me/59177955656?text=Hola%20SOCIDAIN!%20Me%20gustaría%20publicar%20mi%20trabajo%20en%20el%20blog."
+          target="_blank"
+          variant="primary"
+        >
+          Subir mi Trabajo
+        </Button>
+        <Button href="/contact" variant="outline"> Más Información </Button>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

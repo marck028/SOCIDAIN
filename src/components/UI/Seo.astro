@@ -1,0 +1,107 @@
+---
+export interface Props {
+  title: string;
+  description: string;
+  image?: {
+    url: string;
+    alt: string;
+  };
+  type?: "website" | "article";
+  canonicalUrl?: string;
+}
+
+const {
+  title,
+  description,
+  image = {
+    url: "/uploads/logo/LOGOSocidain.webp",
+    alt: "SOCIDAIN",
+  },
+  type = "website",
+  canonicalUrl,
+} = Astro.props;
+
+// Get the canonical URL
+const canonicalURL = canonicalUrl || new URL(Astro.url.pathname, Astro.site);
+
+const orgInfo = {
+  name: "SOCIDAIN",
+  address: {
+    streetAddress: "Av. Pando 2490",
+    addressLocality: "Tiquipaya",
+    addressRegion: "Cochabamba",
+    postalCode: "0000",
+    addressCountry: "BO",
+  },
+  telephone: "+591 77955656",
+  email: "socidain@univalle.edu",
+  url: Astro.site?.toString() || "https://example.com",
+};
+---
+
+<!-- Basic SEO -->
+<title>{title}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonicalURL} />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content={type} />
+<meta property="og:url" content={canonicalURL} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:image" content={new URL(image.url, Astro.site)} />
+<meta property="og:image:alt" content={image.alt} />
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content={canonicalURL} />
+<meta property="twitter:title" content={title} />
+<meta property="twitter:description" content={description} />
+<meta property="twitter:image" content={new URL(image.url, Astro.site)} />
+<meta property="twitter:image:alt" content={image.alt} />
+
+<!-- JSON-LD Schema for SOCIDAIN -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "SOCIDAIN",
+    "description": "Sociedad Científica de Ciencia de Datos e Inteligencia de Negocios — Universidad Privada del Valle",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av. Pando 2490",
+      "addressLocality": "Tiquipaya",
+      "addressRegion": "Cochabamba",
+      "addressCountry": "BO"
+    },
+    "telephone": "+591 77955656",
+    "url": "https://github.com/marck028/SOCIDAIN"
+  }
+</script>
+
+{
+  type === "article" && (
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "${title}",
+        "image": "${new URL(image.url, Astro.site)}",
+        "description": "${description}",
+        "publisher": {
+          "@type": "Organization",
+          "name": "SOCIDAIN",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "${new URL('/uploads/logo/LOGOSocidain.webp', Astro.site)}"
+          }
+        },
+        "url": "${canonicalURL}",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "${canonicalURL}"
+        }
+      }
+    </script>
+  )
+}
