@@ -1,9 +1,8 @@
 ---
-name: "Adrian Torrico"
-title: "Secretaria"
-image: "/uploads/staff/default-avatar.webp"
-email: "adrian.torrico@socidain.edu"
-phone: "+591 1234567"
+name: "Denzel Adrian Torrico KKopa"
+title: "Secretario"
+image: "/uploads/directiva/Adrian Torrico-1.webp"
+email: "tkd0035265@est.univalle.edu"
 order: 3
 draft: false
 ---

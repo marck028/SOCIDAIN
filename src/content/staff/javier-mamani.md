@@ -1,9 +1,8 @@
 ---
-name: "Javier Mamani"
+name: "Javier Mamani Castro"
 title: "Presidente"
-image: "/uploads/staff/default-avatar.webp"
-email: "javier.mamani@socidain.edu"
-phone: "+591 1234567"
+image: "/uploads/directiva/Javier Mamani-1.webp"
+email: "mcj0031425@est.univalle.edu"
 order: 1
 draft: false
 ---

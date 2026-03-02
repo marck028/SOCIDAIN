@@ -1,9 +1,8 @@
 ---
-name: "Santiago Murillo"
+name: "Santiago Alain Murillo Oretea"
 title: "Secretario de Investigación"
-image: "/uploads/staff/default-avatar.webp"
-email: "santiago.murillo@socidain.edu"
-phone: "+591 1234567"
+image: "/uploads/directiva/Santiago Murillo-1.webp"
+email: "mos0035560@est.univalle.edu"
 order: 5
 draft: false
 ---

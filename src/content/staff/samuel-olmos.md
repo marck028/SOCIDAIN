@@ -1,9 +1,8 @@
 ---
-name: "Samuel Olmos"
+name: "Samuel Olmos Antezana"
 title: "Tesorero"
-image: "/uploads/staff/default-avatar.webp"
-email: "samuel.olmos@socidain.edu"
-phone: "+591 1234567"
+image: "/uploads/directiva/Samuel Olmos-1.webp"
+email: "oas0032772@est.univalle.edu"
 order: 4
 draft: false
 ---

@@ -1,9 +1,8 @@
 ---
-name: "Marco Salvatierra"
+name: "Marco Antonio Salvatierra Copa"
 title: "Vicepresidente"
 image: "/uploads/directiva/Marco Salvatierra.png"
 email: "scm0032684@est.univalle.edu"
-phone: "+591 63860980"
 order: 2
 draft: false
 ---
