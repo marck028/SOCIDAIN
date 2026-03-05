@@ -26,10 +26,10 @@ Para construir este proyecto, seleccioné un stack moderno, eficiente y fácil d
 
 El sitio está organizado en colecciones de contenido:
 
-1.  **Staff** — Directiva y miembros de SOCIDAIN
+1.  **Directiva** — Directiva y miembros de SOCIDAIN
 2.  **Eventos** — Historial de eventos y actividades pasadas
-3.  **Blog** — Publicaciones académicas y técnicas de la comunidad
-4.  **Proyectos (Ministries)** — Iniciativas y proyectos en curso
+3.  **Portafolio** — Publicaciones académicas y técnicas de la comunidad
+4.  **Areas** — Iniciativas y proyectos en curso
 
 Cada sección está diseñada para ser **fácilmente actualizable** por cualquier miembro de la sociedad, simplemente editando archivos Markdown.
 
