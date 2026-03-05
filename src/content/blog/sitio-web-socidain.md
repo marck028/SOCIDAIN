@@ -20,7 +20,7 @@ Para construir este proyecto, seleccioné un stack moderno, eficiente y fácil d
 
 - **[Astro](https://astro.build/)** — Framework de generación de sitios estáticos que permite un rendimiento excepcional al servir HTML puro por defecto, sin JavaScript innecesario.
 - **TailwindCSS** — Framework de utilidades CSS que permite construir interfaces modernas y responsivas de forma rápida y consistente.
-- **Markdown / MDX** — Para la gestión de contenido (eventos, blog, directiva) de forma estructurada y sin necesidad de una base de datos.
+- **Markdown / MDX** — Para la gestión de contenido (eventos, portafolio, directiva) de forma estructurada y sin necesidad de una base de datos.
 
 ## Arquitectura del Proyecto
 
