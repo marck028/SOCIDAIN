@@ -9,10 +9,10 @@ const { title, subtitle, backgroundImage = null } = Astro.props;
 ---
 
 <section
-  class={`relative py-12 ${!backgroundImage ? "bg-[#555555]" : "bg-cover bg-center"}`}
+  class={`relative py-12 ${backgroundImage ? "bg-cover bg-center" : ""}`}
   style={backgroundImage
     ? `background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${backgroundImage})`
-    : ""}
+    : "background: linear-gradient(135deg, #600022 0%, #900033 50%, #600022 100%)"}
 >
   <div class="container">
     <div class="max-w-4xl mx-auto text-center text-white">
