@@ -7,6 +7,8 @@ image:
   url: "/uploads/directiva/Marco Salvatierra.png"
   alt: "Marco Salvatierra - Desarrollador del Sitio Web de SOCIDAIN"
 tags: ["Desarrollo Web", "Astro", "TailwindCSS"]
+coverImage: "https://images.unsplash.com/photo-1547658719-da2b51169166?w=800"
+category: "Proyectos de Software"
 draft: false
 ---
 

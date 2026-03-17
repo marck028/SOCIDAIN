@@ -55,6 +55,8 @@ const blogCollection = defineCollection({
       url: z.string(),
       alt: z.string()
     }).optional(),
+    coverImage: z.string().optional(),
+    category: z.enum(["Proyectos de Software", "Investigación Científica", "Tutoriales & Análisis"]),
     tags: z.array(z.string()).default([]),
     draft: z.boolean().default(false),
   }),
