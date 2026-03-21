@@ -99,14 +99,14 @@ comunitario, y participación en las iniciativas del Vicerrectorado
 de Interacción Social, en la medida que las posibilidades lo permitan.
 
 <div class="my-8">
-  <iframe src="/uploads/socidain-plan-2026.pdf" 
+  <iframe src="/uploads/socidain-plan-final.pdf" 
           width="100%" height="700px" 
           style="border:none; border-radius: 8px; 
                  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
   </iframe>
 </div>
 <div class="not-prose text-center mt-4 mb-10">
-  <a href="/uploads/socidain-plan-2026.pdf" download 
+  <a href="/uploads/socidain-plan-final.pdf" download 
      class="btn-download inline-block bg-[#900033] hover:bg-[#600022] text-white 
             font-bold py-2 px-6 rounded transition-colors duration-300 no-underline">
     Descargar plan oficial (PDF)
