@@ -42,7 +42,7 @@ compañerismo: nos ayudamos mutuamente para alcanzar nuestros objetivos.
 
 ### ¿De dónde partimos? Las propuestas iniciales
 
-Todo proceso de planificación empieza con ideas, y las nuestras están 
+Todo proceso de planificación empieza con ideas, y  están 
 documentadas en el archivo de propuestas 2026 adjunto a esta publicación.
 
 Ese documento recoge una exploración amplia de lo que SOCIDAIN podría 
