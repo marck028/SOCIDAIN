@@ -7,7 +7,7 @@ summary: "Ceremonia oficial donde cada representante de sociedad científica asu
 tags: ["Institucional", "Posesión", "Eventos"]
 ---
 
-La Universidad Privada del Valle invita a los miembros de las sociedades estudiantiles al Acto de Posesión, ceremonia oficial donde cada representante asumirá formalmente su rol dentro de la institución.
+La Universidad Privada del Valle invita a las mesas directivas de las sociedades estudiantiles al Acto de Posesión, ceremonia oficial donde cada representante asumirá formalmente su rol dentro de la institución.
 
 El evento reconoce el compromiso de quienes lideran las sociedades científicas y marca el inicio oficial de la gestión 2026.
 

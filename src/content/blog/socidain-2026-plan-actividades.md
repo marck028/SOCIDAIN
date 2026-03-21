@@ -12,10 +12,6 @@ coverImage: "/uploads/blogjavier-1.webp"
 ---
 *Por Javier Mamani Castro, Presidente de SOCIDAIN*
 
-Asumir la presidencia de SOCIDAIN fue una decisión consciente. No una 
-casualidad. Vi que había algo que podía mejorar, y decidí ser parte 
-de esa mejora.
-
 Antes de hablar de planes y documentos, quiero hablar del equipo. La 
 directiva 2026 está formada por personas que brillan por lo que son. Cada uno tiene algo propio que aporta, y 
 eso se siente cuando trabajamos. No nos coordina el organigrama, nos 
@@ -114,6 +110,9 @@ de Interacción Social, en la medida que las posibilidades lo permitan.
 </div>
 
 ### Por qué estoy acá
+Asumir la presidencia de SOCIDAIN fue una decisión consciente. No una 
+casualidad. Vi que había algo que podía mejorar, y decidí ser parte 
+de esa mejora.
 
 Podría haber dejado pasar este rol. Simplemente cursar, entregar, 
 aprobar. Pero elegí esto porque creo que hay algo valioso que construir 
