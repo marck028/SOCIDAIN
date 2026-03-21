@@ -10,26 +10,19 @@ image:
 tags: ["Comunidad", "Organización", "SOCIDAIN"]
 coverImage: "/uploads/blogjavier-1.webp"
 ---
-
 *Por Javier Mamani Castro, Presidente de SOCIDAIN*
 
-La gestión 2026 marca un punto de inflexión para SOCIDAIN. Este año 
-no solo renovamos la directiva, sino también nuestra forma de pensar 
-lo que una sociedad científica puede y debe ser para sus miembros.
+Asumir la presidencia de SOCIDAIN fue una decisión consciente. No una 
+casualidad. Vi que había algo que podía mejorar, y decidí ser parte 
+de esa mejora.
 
-### La directiva 2026
+Antes de hablar de planes y documentos, quiero hablar del equipo. La 
+directiva 2026 está formada por personas que brillan por lo que son. Cada uno tiene algo propio que aporta, y 
+eso se siente cuando trabajamos. No nos coordina el organigrama, nos 
+coordina el compañerismo.
 
-Antes de hablar del plan, quiero presentar al equipo que hará posible 
-todo esto. La directiva de SOCIDAIN 2026 está conformada por estudiantes 
-comprometidos con el crecimiento de nuestra comunidad. En el organigrama 
-adjunto pueden ver la estructura completa, con los roles y responsables 
-que liderarán cada área durante esta gestión.
-
-Todos los miembros de la mesa directiva son personas talentosas que 
-brillan por su autenticidad. Confío en que junto con ellos lograremos 
-aportar mucho valor tanto a la sociedad como a los estudiantes. No 
-estamos delimitados por el rol de la mesa directiva, sino por el 
-compañerismo: nos ayudamos mutuamente para alcanzar nuestros objetivos.
+En el organigrama adjunto pueden ver la estructura formal. Pero la 
+realidad del equipo es más horizontal que eso.
 
 <figure class="my-8 flex justify-center flex-col items-center">
   <img src="/uploads/directiva-socidain-2026.png" 
@@ -40,29 +33,23 @@ compañerismo: nos ayudamos mutuamente para alcanzar nuestros objetivos.
   </figcaption>
 </figure>
 
-### ¿De dónde partimos? Las propuestas iniciales
+### Las propuestas
 
-Todo proceso de planificación empieza con ideas, y  están 
-documentadas en el archivo de propuestas 2026 adjunto a esta publicación.
+Como buenos estudiantes de ciencia de datos, usamos una encuesta para 
+fundamentar las propuestas. 17 estudiantes respondieron, y los números 
+pusieron en blanco y negro cosas que ya intuíamos: el tiempo es escaso, 
+las ganas existen, y la comunicación había fallado antes. Eso nos dio 
+dirección.
 
-Ese documento recoge una exploración amplia de lo que SOCIDAIN podría 
-hacer este año: desde talleres técnicos y charlas con profesionales, 
-hasta actividades sociales, voluntariados, un hackathon, y espacios 
-de bienestar. Fue elaborado a partir de los resultados de una encuesta 
-respondida por 17 estudiantes, cuyos hallazgos marcaron el tono de 
-todo lo que vino después.
+Los datos más relevantes:
 
-Algunos datos que vale la pena destacar:
+- El **88%** tiene entre 0 y 5 horas disponibles al mes. No podemos 
+  pedirle más a la gente de lo que tiene.
+- El **59%** priorizó aprender habilidades técnicas que no se ven 
+  en clases.
+- El **65%** no sabía que SOCIDAIN tenía actividades o nunca había 
+  participado.
 
-- El **88%** tiene entre 0 y 5 horas disponibles al mes. Eso obligó 
-  a ser honestos: menos actividades, pero mejor ejecutadas.
-- El **59%** priorizó aprender habilidades técnicas que no se ven en 
-  clases.
-- El **65%** no sabía de las actividades previas de SOCIDAIN o nunca 
-  había participado. La comunicación es una deuda que este año 
-  empezamos a saldar.
-- El **94%** está dispuesto a ayudar en la organización. Eso es una 
-  fortaleza que no pensamos desaprovechar.
 
 <div class="my-8">
   <iframe src="/uploads/socidain-propuestas-2026.pdf" 
@@ -71,30 +58,32 @@ Algunos datos que vale la pena destacar:
                  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
   </iframe>
 </div>
-<div class="text-center mt-4 mb-10">
+<div class="not-prose text-center mt-4 mb-10">
   <a href="/uploads/socidain-propuestas-2026.pdf" download 
-     class="inline-block bg-[#900033] hover:bg-[#600022] text-white 
-            font-bold py-2 px-6 rounded transition-colors duration-300">
+     class="btn-download inline-block bg-[#900033] hover:bg-[#600022] text-white 
+            font-bold py-2 px-6 rounded transition-colors duration-300 no-underline">
     Descargar propuestas (PDF)
   </a>
 </div>
 
-### El Plan Oficial 2026
+### El Plan Oficial
 
-El documento que representa el compromiso formal de SOCIDAIN para este 
-año es el Plan de Actividades 2026. No es una lista de deseos — es el 
-resultado de filtrar, priorizar y aterrizar las propuestas en algo 
-realista y ejecutable. Tiene estructura, responsables, y está alineado 
-con los macroprocesos institucionales de la universidad. Con este 
-documento rendimos cuentas al final de la gestión.
+El plan es lo que realmente nos comprometemos a hacer. Está organizado 
+en cuatro ejes: académico, social, desarrollo profesional, e interacción 
+social. Pero hay algo que atraviesa todos: nada es obligatorio.
 
-El plan se organiza en cuatro ejes:
+No creo en forzar la participación. Si alguien viene, es porque quiere 
+venir. Y si quiere venir, vamos a hacer que valga la pena.
 
-**Eje Académico** — El núcleo. Talleres cortos y prácticos sobre 
-tecnologías de ciencia de datos, una sesión sobre inglés técnico y 
-científico, charlas con profesionales del sector, y espacios donde 
-los estudiantes puedan mostrar sus proyectos y recibir retroalimentación 
-real.
+El eje que más me importa, personalmente, no es el académico. Es el 
+desarrollo personal, que está implícito en casi todo lo que planeamos. 
+Porque los datos y los modelos son herramientas — las personas que los 
+usan importan más.
+
+**Eje Académico** — Talleres cortos y prácticos sobre tecnologías de 
+ciencia de datos, una sesión sobre la importancia del inglés, charlas 
+con profesionales del sector, y espacios donde los estudiantes puedan 
+mostrar sus proyectos y recibir retroalimentación real.
 
 **Eje Social** — Porque una sociedad también es una comunidad. Café y 
 conversación SOCIDAIN, tardes de juegos de mesa, salidas grupales. 
@@ -103,8 +92,7 @@ quedarse.
 
 **Eje de Desarrollo Profesional** — Pensar en el después desde hoy. 
 Talleres de CV, portafolio y LinkedIn, simulacros de entrevistas 
-técnicas, y conexión con el mercado laboral desde los primeros 
-semestres.
+técnicas, y conexión con el mercado laboral desde los primeros semestres.
 
 **Eje de Interacción Social** — Voluntariado, proyectos con impacto 
 comunitario, y participación en las iniciativas del Vicerrectorado 
@@ -117,26 +105,23 @@ de Interacción Social, en la medida que las posibilidades lo permitan.
                  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
   </iframe>
 </div>
-<div class="text-center mt-4">
+<div class="not-prose text-center mt-4 mb-10">
   <a href="/uploads/socidain-plan-2026.pdf" download 
-     class="inline-block bg-[#900033] hover:bg-[#600022] text-white 
-            font-bold py-2 px-6 rounded transition-colors duration-300">
+     class="btn-download inline-block bg-[#900033] hover:bg-[#600022] text-white 
+            font-bold py-2 px-6 rounded transition-colors duration-300 no-underline">
     Descargar plan oficial (PDF)
   </a>
 </div>
 
-### Una nota personal
+### Por qué estoy acá
 
-Hay estudiantes que llegaron a la carrera sin saber bien qué esperar. 
-Una sociedad científica puede ser, si se hace bien, uno de los espacios 
-más valiosos de la formación universitaria — no por los certificados, 
-sino por lo que se construye con las personas.
+Podría haber dejado pasar este rol. Simplemente cursar, entregar, 
+aprobar. Pero elegí esto porque creo que hay algo valioso que construir 
+aquí, y porque sé que junto con las personas que me acompañan podemos 
+aportar de manera significativa a la carrera.
 
-No vamos a poder hacer todo lo que está en las propuestas. Pero lo 
-que comprometemos en el plan, lo vamos a cumplir con seriedad. Y si 
-algo sale mal, vamos a aprender de eso también.
-
-SOCIDAIN 2026 empieza hoy. Los invito a ser parte.
+SOCIDAIN no es una materia. Es el espacio que existe porque nosotros 
+decidimos que exista. 
 
 *Javier Mamani Castro*  
 *Presidente — SOCIDAIN 2026*  

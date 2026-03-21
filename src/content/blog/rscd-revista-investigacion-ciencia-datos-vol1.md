@@ -33,8 +33,8 @@ La revista incluye:
   ></iframe>
 </div>
 
-<div class="text-center mt-6">
-  <a href="/uploads/rscd-vol1.pdf" download class="inline-block bg-[#900033] hover:bg-[#600022] text-white font-bold py-3 px-6 rounded transition-colors duration-300">
+<div class="not-prose text-center mt-6">
+  <a href="/uploads/rscd-vol1.pdf" download class="btn-download inline-block bg-[#900033] hover:bg-[#600022] text-white font-bold py-3 px-6 rounded transition-colors duration-300 no-underline">
     Descargar revista completa (PDF)
   </a>
 </div>
