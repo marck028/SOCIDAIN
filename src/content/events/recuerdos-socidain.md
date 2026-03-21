@@ -19,19 +19,19 @@ El viaje arrancó temprano y con hambre. Llegar al aeropuerto Viru Viru fue el p
 
 ![Base de operaciones](/uploads/comunidad/inaguracióndelasociedad-1.webp)  
 <span class="text-sm font-bold text-gray-700">Base de operaciones</span>  
-Los apartamentos fueron el punto de encuentro entre estudiantes de las gestiones 2023 y 2024. Compartir espacio con compañeros de otras promociones, intercambiar perspectivas y conocerse fuera del aula fue, sin duda, una de las mejores partes del viaje. Entre medio, visitamos el data center de TIGO y la sede de Univalle Santa Cruz — experiencias que valieron el viaje por sí solas.
+Los apartamentos fueron el punto de encuentro entre estudiantes de las gestiones 2023 y 2024. Compartir espacio con compañeros de otras promociones, intercambiar perspectivas y conocerse fuera del aula fue, sin duda, una de las mejores partes del viaje. Visitamos el data center de TIGO, la sede de Univalle Santa Cruz y tambien algunos sitios interesantes en la ciudad experiencias que valieron el viaje por sí solas.
 
 ![Los de siempre](/uploads/comunidad/inaguracióndelasociedad-2.webp)  
 <span class="text-sm font-bold text-gray-700">Los de siempre</span>  
 Mismo aeropuerto, misma mesa, distintas conversaciones. Algunos momentos no necesitan más explicación que esa.
 
 ![Última noche, toda la energía](/uploads/comunidad/titanic.png)  
-<span class="text-sm font-bold text-gray-700">Última noche, toda la energía</span>  
-Con las maletas casi listas y el viaje por terminar, todavía quedaba tiempo para esto. Prueba de que el grupo llegó con buena energía y se fue con más.
+<span class="text-sm font-bold text-gray-700">Empezando con toda la energía</span>  
+Sin dejar las maletas en el departamento (por que no sabiamos como abrir la puerta) y con el cronograma apretado, todavía quedaba tiempo para esto. Prueba de que el grupo llegó con buena energía y se fue con más.
 
 ![Celebración en el patio](/uploads/comunidad/comunidad-5.webp)  
 <span class="text-sm font-bold text-gray-700">Celebración en el patio</span>  
-Un cumpleaños, el pasto como escenario y todo el grupo presente. Sin mucha planificación, con mucho resultado. Así suelen ser los mejores momentos de SOCIDAIN.
+Un cumpleaños, el pasto como escenario y todo el grupo presente. Sin mucha planificación, con mucho resultado. Así suelen ser los mejores momentos en la carrera.
 
 ![Entre clases también se celebra](/uploads/comunidad/comunidad-4.webp)  
 <span class="text-sm font-bold text-gray-700">Entre clases también se celebra</span>  

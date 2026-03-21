@@ -74,12 +74,17 @@ const getCategoryCount = (cat: string) => {
                 >
                   <!-- Cover image area -->
                   {post.data.coverImage ? (
-                    <div class="w-full aspect-video overflow-hidden shrink-0">
+                    <div class="w-full aspect-video overflow-hidden shrink-0 relative">
                       <img 
                         src={post.data.coverImage} 
                         alt={post.data.title}
                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                       />
+                      {post.slug === "socidain-2026-plan-actividades" && (
+                        <div class="absolute inset-0 flex items-end p-4 bg-gradient-to-t from-black/60 to-transparent">
+                          <h3 class="text-white font-bold text-xl leading-tight drop-shadow-md">SOCIDAIN 2026</h3>
+                        </div>
+                      )}
                     </div>
                   ) : (
                     <div class="w-full aspect-video bg-[#900033] shrink-0 flex items-center justify-center p-6 text-center">
@@ -88,7 +93,7 @@ const getCategoryCount = (cat: string) => {
                   )}
 
                   <div class="p-8 flex flex-col flex-grow">
-                    <h3 class="text-xl font-bold text-gray-900 group-hover:text-[#900033] transition-colors line-clamp-2 leading-tight mb-4">
+                    <h3 class={post.slug === "socidain-2026-plan-actividades" ? "sr-only" : "text-xl font-bold text-gray-900 group-hover:text-[#900033] transition-colors line-clamp-2 leading-tight mb-4"}>
                       {post.data.title}
                     </h3>
 
