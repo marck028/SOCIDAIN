@@ -17,12 +17,8 @@ const posts = allPosts.sort(
     new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime(),
 );
 
-const categories = [
-  "Todos",
-  "Proyectos de Software",
-  "Investigación Científica",
-  "Tutoriales & Análisis",
-];
+const uniqueCategories = [...new Set(posts.map(post => post.data.category || "General"))];
+const categories = ["Todos", ...uniqueCategories];
 
 const getCategoryCount = (cat: string) => {
   if (cat === "Todos") return posts.length;

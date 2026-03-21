@@ -55,6 +55,8 @@ const blogCollection = defineCollection({
       url: z.string(),
       alt: z.string()
     }).optional(),
+    coverImage: z.string().optional(),
+    category: z.string().default("General"),
     tags: z.array(z.string()).default([]),
     draft: z.boolean().default(false),
   }),

@@ -3,9 +3,12 @@ title: "SOCIDAIN 2026: Construyendo comunidad desde los datos"
 pubDate: 2025-03-01
 description: "El plan oficial de la gestión 2026 de SOCIDAIN, nuestra directiva y los ejes de acción para los próximos semestres."
 author: "Javier Mamani Castro"
-category: "Proyectos de Software"
+category: "Comunidad"
+image:
+  url: "/uploads/directiva/Javier Mamani-1.webp"
+  alt: "Javier Mamani Castro"
 tags: ["Comunidad", "Organización", "SOCIDAIN"]
-coverImage: "/uploads/directiva-socidain-2026.png"
+coverImage: "/uploads/blogjavier-1.webp"
 ---
 
 ## Plan de Actividades SOCIDAIN 2026: Construyendo comunidad desde los datos
@@ -41,7 +44,7 @@ Algunos datos reveladores:
   <iframe src="/uploads/socidain-propuestas-2026.pdf" width="100%" height="700px" style="border:none; border-radius: 8px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);"></iframe>
 </div>
 <div class="text-center mt-4 mb-10">
-  <a href="/uploads/socidain-propuestas-2026.pdf" download class="inline-block bg-[#001f5c] hover:bg-blue-800 text-white font-bold py-2 px-6 rounded transition-colors duration-300">
+  <a href="/uploads/socidain-propuestas-2026.pdf" download class="inline-block bg-[#900033] hover:bg-[#600022] text-white font-bold py-2 px-6 rounded transition-colors duration-300">
     Descargar propuestas (PDF)
   </a>
 </div>
@@ -56,7 +59,7 @@ El plan se organiza en cuatro grandes ejes:
 
 **Eje Social** — Café y conversación SOCIDAIN, tardes de juegos de mesa, salidas grupales. Actividades que construyen los lazos que hacen que uno quiera quedarse.
 
-**Eje de Desarrollo Profesional** — Talleres de CV, portafolio y LinkedIn, simulacros de entrevistas técnicas, y conexión con el mercado laboral desde los primeros semestres.
+**Eje de Desarrollo Profesional** — Talleres de CV (Torre América, Aula Huawei), portafolio y LinkedIn, simulacros de entrevistas técnicas, y conexión con el mercado laboral desde los primeros semestres.
 
 **Eje de Interacción Social** — Voluntariado, proyectos con impacto comunitario, y participación en las iniciativas del Vicerrectorado de Interacción Social.
 
@@ -64,7 +67,7 @@ El plan se organiza en cuatro grandes ejes:
   <iframe src="/uploads/socidain-plan-2026.pdf" width="100%" height="700px" style="border:none; border-radius: 8px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);"></iframe>
 </div>
 <div class="text-center mt-4">
-  <a href="/uploads/socidain-plan-2026.pdf" download class="inline-block bg-[#001f5c] hover:bg-blue-800 text-white font-bold py-2 px-6 rounded transition-colors duration-300">
+  <a href="/uploads/socidain-plan-2026.pdf" download class="inline-block bg-[#900033] hover:bg-[#600022] text-white font-bold py-2 px-6 rounded transition-colors duration-300">
     Descargar plan oficial (PDF)
   </a>
 </div>
