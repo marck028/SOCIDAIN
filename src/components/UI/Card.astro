@@ -39,7 +39,7 @@ const Element = href ? "a" : "div";
         alt={image.alt}
         class:list={[
           "w-full object-cover object-center transition-transform duration-300 group-hover:scale-105",
-          { 'h-full': imageLayout === 'background', 'h-auto': imageLayout === 'top' }
+          { 'h-full': imageLayout === 'background', 'h-48': imageLayout === 'top' }
         ]}
       />
     </div>

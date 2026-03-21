@@ -1,0 +1,9 @@
+REPLACED:
+
+ADDED:
+D:\SOCIDAIN\2026\fotoswebsocidain\fotosnuevasweb\fotoparablogdeamira.webp -> d:\UNINI\6TOSEMESTRE\machin\atrevetee\SOCIDAIN\public\uploads\fotoparablogdeamira.webp
+D:\SOCIDAIN\2026\fotoswebsocidain\fotosnuevasweb\fotoparablogmarco.webp -> d:\UNINI\6TOSEMESTRE\machin\atrevetee\SOCIDAIN\public\uploads\fotoparablogmarco.webp
+D:\SOCIDAIN\2026\fotoswebsocidain\fotosnuevasweb\nuevoseventos\taller cv SOCIDAIN.webp -> d:\UNINI\6TOSEMESTRE\machin\atrevetee\SOCIDAIN\public\uploads\taller-cv-socidain.webp
+D:\SOCIDAIN\2026\fotoswebsocidain\fotosnuevasweb\nuevoseventos\reemplazo header\rally de sociedades 2026-1.webp -> d:\UNINI\6TOSEMESTRE\machin\atrevetee\SOCIDAIN\public\uploads\rally-de-sociedades-2026-1.webp
+D:\SOCIDAIN\2026\fotoswebsocidain\fotosnuevasweb\reemplazo header\reemplazodeimageninaguraciondelasociedad2wbep-1.webp -> d:\UNINI\6TOSEMESTRE\machin\atrevetee\SOCIDAIN\public\uploads\reemplazodeimageninaguraciondelasociedad2wbep-1.webp
+D:\SOCIDAIN\2026\fotoswebsocidain\fotosnuevasweb\sobrenosotrosreemplazo\sobrenosotrosreemplazo-1.webp -> d:\UNINI\6TOSEMESTRE\machin\atrevetee\SOCIDAIN\public\uploads\sobrenosotrosreemplazo-1.webp
