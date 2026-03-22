@@ -1,6 +1,6 @@
 ---
 title: "Taller — Cómo construir un CV que supere los filtros de IA"
-date: 2026-03-25
+date: 2026-03-24
 location: "Univalle Cochabamba"
 image: "/uploads/taller-cv-socidain.webp"
 summary: "Taller práctico para aprender cómo funcionan los filtros de IA en reclutamiento y cómo crear un currículum que los supere."
