@@ -17,7 +17,7 @@ pendiente. Este año lo construimos.
 
 ## Cómo empezó
 
-Los dos teníamos claro este año SOCIDAIN debía finalmente tener un sitio web, 
+Los dos teníamos claro este año que SOCIDAIN debía finalmente tener un sitio web, 
 lo planificamos, y cuando llegó el momento, nos pusimos a trabajar.
 
 Marco se encargó de la arquitectura y el desarrollo técnico. 
