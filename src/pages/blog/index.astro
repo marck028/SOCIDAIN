@@ -47,9 +47,9 @@ const getCategoryCount = (cat: string) => {
               {categories.map((cat) => {
                 const count = getCategoryCount(cat);
                 const isActive = cat === "Todos";
-                const baseClasses = "px-6 py-2 rounded-full text-sm font-bold transition-all cursor-pointer filter-pill border-2";
-                const activeClasses = "bg-[#900033] border-[#900033] text-white";
-                const inactiveClasses = "bg-transparent border-[#900033] text-[#900033] hover:bg-[#900033] hover:text-white";
+                const baseClasses = "filter-pill filter-btn transition-colors duration-200 cursor-pointer rounded-full px-4 py-2 text-sm font-semibold border border-[#900033]";
+                const activeClasses = "active bg-[#900033] !text-white";
+                const inactiveClasses = "bg-transparent text-[#900033] hover:bg-[#900033] hover:!text-white";
                 
                 return (
                   <button

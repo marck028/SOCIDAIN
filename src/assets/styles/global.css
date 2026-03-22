@@ -93,3 +93,8 @@ a.btn-download {
 a.btn-download:hover {
   color: #ffffff !important;
 }
+
+.filter-btn.active, .filter-btn:hover {
+  color: #ffffff !important;
+  background-color: #900033 !important;
+}
