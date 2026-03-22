@@ -1,55 +1,75 @@
 ---
 title: "Construcción del Sitio Web Oficial de SOCIDAIN"
 pubDate: 2025-03-01
-description: "Cómo desarrollamos el sitio web oficial de SOCIDAIN desde cero: arquitectura, tecnologías utilizadas y el proceso de diseño que refleja la identidad de nuestra sociedad científica."
-author: "Marco Salvatierra"
+description: "Cómo construimos el sitio web oficial de SOCIDAIN desde cero: decisiones técnicas, arquitectura y el proceso detrás de una plataforma que refleja lo que somos."
+author: "Marco Salvatierra - Javier Mamani Castro"
 image:
   url: "/uploads/fotoparablogmarco.webp"
-  alt: "Marco Salvatierra - Desarrollador del Sitio Web de SOCIDAIN"
+  alt: "Sitio Web Oficial de SOCIDAIN"
 tags: ["Desarrollo Web", "Astro", "TailwindCSS"]
-coverImage: "https://images.unsplash.com/photo-1547658719-da2b51169166?w=800"
+coverImage: "/uploads/fotoparablogmarco.webp"
 category: "Desarrollo"
 draft: false
 ---
 
-# Construcción del Sitio Web Oficial de SOCIDAIN
+Desde que empezó SOCIDAIN, tener un sitio web propio era algo 
+pendiente. Este año lo construimos.
 
-Como miembro activo de **SOCIDAIN**, tuve el honor de desarrollar el sitio web oficial de nuestra sociedad científica. Este proyecto fue una oportunidad única para aplicar conocimientos técnicos al servicio de nuestra comunidad estudiantil en la Universidad Univalle.
+## Cómo empezó
 
-## Tecnologías Utilizadas
+Los dos teníamos claro este año que SOCIDAIN debía finalmente tener un sitio web, 
+lo planificamos, y cuando llegó el momento, nos pusimos a trabajar.
 
-Para construir este proyecto, seleccioné un stack moderno, eficiente y fácil de mantener:
+Marco se encargó de la arquitectura y el desarrollo técnico. 
+Javier del contenido, las correcciones visuales y todas las 
+fotografías del sitio
 
-- **[Astro](https://astro.build/)** — Framework de generación de sitios estáticos que permite un rendimiento excepcional al servir HTML puro por defecto, sin JavaScript innecesario.
-- **TailwindCSS** — Framework de utilidades CSS que permite construir interfaces modernas y responsivas de forma rápida y consistente.
-- **Markdown / MDX** — Para la gestión de contenido (eventos, portafolio, directiva) de forma estructurada y sin necesidad de una base de datos.
 
-## Arquitectura del Proyecto
+Marco tomó la parte técnica: arquitectura, componentes, sistema de 
+layouts, colecciones de contenido, diseño visual. Javier se encargó 
+de la dirección editorial: qué secciones iban, cómo se organizaba 
+la información, qué se redactaba y cómo. Fue una división natural, 
+sin mucho protocolo.
 
-El sitio está organizado en colecciones de contenido:
+El stack lo definimos en conjunto: **Astro** como framework de 
+generación de sitios estáticos por su rendimiento y su manejo limpio 
+de contenido en Markdown, y **TailwindCSS** para el diseño. Sin 
+dependencias innecesarias, sin sobrecarga.
 
-1.  **Directiva** — Directiva y miembros de SOCIDAIN
-2.  **Eventos** — Historial de eventos y actividades pasadas
-3.  **Portafolio** — Publicaciones académicas y técnicas de la comunidad
-4.  **Areas** — Iniciativas y proyectos en curso
+## Tecnologías utilizadas
 
-Cada sección está diseñada para ser **fácilmente actualizable** por cualquier miembro de la sociedad, simplemente editando archivos Markdown.
+- **[Astro](https://astro.build/)** — Framework de generación 
+  estática. HTML puro por defecto, sin JavaScript innecesario.
+- **TailwindCSS** — Utilidades CSS para construir interfaces 
+  modernas y responsivas.
+- **Markdown / MDX** — Gestión de contenido sin base de datos. 
+  Simple de mantener, simple de actualizar.
 
-## Decisiones de Diseño
+## Decisiones de diseño
 
-El diseño fue creado con el objetivo de reflejar la **identidad profesional y científica** de SOCIDAIN:
-
-- **Colores institucionales** de la Universidad Univalle (borravino `#900033`)
-- **Tipografía limpia** para favorecer la legibilidad
-- **Diseño responsivo** que funciona perfectamente en celulares, tablets y computadoras
-- **Animaciones sutiles** en la navegación y componentes para una experiencia premium
+- **Color borravino `#900033`** — identidad de SOCIDAIN y Univalle.
+- **Tipografía limpia** — legibilidad antes que decoración.
+- **Responsivo** — funciona en celular, tablet y escritorio.
+- **Animaciones sutiles** — experiencia cuidada sin ruido visual.
 
 ## Integración con WhatsApp
 
-Una de las funcionalidades más útiles fue la integración directa con **WhatsApp**, que permite a los usuarios del sitio contactar a la directiva de forma inmediata a través del número oficial de SOCIDAIN.
+Contacto directo con la directiva desde cualquier parte del sitio. 
+Sin formularios, sin esperas.
 
-## Lo que Aprendí
+## El resultado
 
-Este proyecto fue un ejercicio intenso de trabajo con una arquitectura de contenido basada en archivos, gestión de assets y diseño de sistemas de componentes reutilizables en Astro. Fue un gran reto y una enorme satisfacción ver el resultado final en producción.
+Un sitio que funciona, que se puede mantener, y que está a la 
+altura de lo que SOCIDAIN quiere ser. Eso era el objetivo desde 
+el principio.
 
 ---
+
+Un agradecimiento especial al **Ing. Rudy Manzaneda Veizaga**, quien nos 
+enseñó desarrollo web con genuino interés y dedicación. No 
+participó en este proyecto directamente, pero su enseñanza fue 
+parte del camino que nos llevó hasta acá.
+
+---
+*Marco Salvatierra — Arquitectura y desarrollo técnico*  
+*Javier Mamani Castro — Dirección de contenido y afinado editorial*
