@@ -4,7 +4,7 @@ pubDate: 2026-03-20
 description: "Primera edición de la Revista de Investigación en Ciencia de Datos (RSCD) de la Universidad del Valle, Bolivia. Publicación estudiantil que explora la intersección entre ciencia de datos, inteligencia artificial y su impacto en la sociedad."
 author: "Amira Jimena Román Juchani"
 image:
-  url: "/uploads/fotoparablogdeamira.webp"
+  url: "/uploads/amira-avatar.svg"
   alt: "Amira Jimena Román Juchani"
 coverImage: "/uploads/rscd-vol1-cover.jpg"
 category: "Investigación Científica"
