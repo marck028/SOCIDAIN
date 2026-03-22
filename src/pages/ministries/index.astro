@@ -6,7 +6,7 @@ import Button from "../../components/UI/Button.astro";
 
 <BaseLayout
   title="Areas - SOCIDAIN"
-  description="Donde los datos cobran vida. Conoce nuestras áreas de investigación, impacto social e innovación."
+  description="Donde los datos cobran vida. Conoce nuestros cuatro ejes fundamentales."
 >
   <PageHeader
     title="Donde los datos cobran vida"
@@ -32,242 +32,79 @@ import Button from "../../components/UI/Button.astro";
   <section class="py-16 bg-gray-50">
     <div class="container mx-auto px-4">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
-        <!-- 1. Proyectos de Investigación Estudiantil -->
-        <div
-          class="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 flex flex-col hover:shadow-2xl transition-shadow"
-        >
+        
+        <!-- 1. Eje Académico -->
+        <div class="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 flex flex-col hover:shadow-2xl transition-shadow">
           <div class="h-4 w-full bg-primary-500"></div>
           <div class="p-8 lg:p-10">
             <div class="flex items-center mb-6">
-              <div
-                class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mr-4"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6 text-primary-600"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.514l-.628.314a1 1 0 01-1.186 0l-.628-.314a6 6 0 00-3.86-.514l-2.388.477a2 2 0 00-1.022.547l-.514.514a2 2 0 000 2.828l1.255 1.255a2 2 0 002.828 0l.514-.514a2 2 0 00.547-1.022l.477-2.387a6 6 0 00-.514-3.86l-.314-.628a1 1 0 010-1.186l.314-.628a6 6 0 00.514-3.86l-.477-2.388a2 2 0 00-.547-1.022l-.514-.514a2 2 0 00-2.828 0l-1.255 1.255a2 2 0 000 2.828l.514.514c.142.142.3.267.473.374"
-                  ></path>
+              <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
                 </svg>
               </div>
-              <h3 class="text-2xl font-bold">
-                1. Proyectos de Investigación Estudiantil
-              </h3>
+              <h3 class="text-2xl font-bold">Eje Académico</h3>
             </div>
             <p class="text-gray-700 text-lg leading-relaxed mb-6">
-              Fomentamos la investigación a través del desarrollo de proyectos
-              sobre temas de libre elección. Nuestro objetivo principal es que
-              los estudiantes practiquen el proceso investigativo, apliquen la
-              metodología científica y reciban retroalimentación de los
-              docentes.
+              El núcleo de lo que hacemos. Organizamos talleres prácticos sobre tecnologías de ciencia de datos, una sesión sobre la importancia del inglés en el ámbito técnico y científico, charlas con profesionales del sector con espacio de preguntas, y espacios para que los estudiantes presenten sus proyectos y reciban retroalimentación.
             </p>
-            <div
-              class="bg-primary-50 p-6 rounded-xl border-l-4 border-primary-500"
-            >
-              <p class="text-primary-900 font-medium">
-                Valoramos profundamente el aprendizaje del proceso
-                investigativo, por lo que no es un requisito estricto llegar a
-                una publicación formal.
-              </p>
-            </div>
           </div>
         </div>
 
-        <!-- 2. Proyectos de Impacto Social (MVPs) -->
-        <div
-          class="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 flex flex-col hover:shadow-2xl transition-shadow"
-        >
+        <!-- 2. Eje Social -->
+        <div class="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 flex flex-col hover:shadow-2xl transition-shadow">
           <div class="h-4 w-full bg-secondary-400"></div>
           <div class="p-8 lg:p-10">
             <div class="flex items-center mb-6">
-              <div
-                class="w-12 h-12 bg-secondary-100 rounded-lg flex items-center justify-center mr-4"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6 text-secondary-600"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
-                  ></path>
+              <div class="w-12 h-12 bg-secondary-100 rounded-lg flex items-center justify-center mr-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-secondary-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
                 </svg>
               </div>
-              <h3 class="text-2xl font-bold">
-                2. Proyectos de Impacto Social (MVPs)
-              </h3>
+              <h3 class="text-2xl font-bold">Eje Social</h3>
             </div>
             <p class="text-gray-700 text-lg leading-relaxed mb-6">
-              Utilizamos la ciencia de datos para el bien común. A través de
-              nuestras Jornadas de Servicio Comunitario, desarrollamos Productos
-              Mínimos Viables (MVP) enfocados en resolver problemáticas reales.
+              Una sociedad científica también es una comunidad. Promovemos encuentros informales como Café y Conversación SOCIDAIN, tardes de juegos de mesa y salidas grupales. Actividades simples que construyen los lazos que hacen que uno quiera quedarse.
             </p>
-            <div class="space-y-4">
-              <h4 class="font-bold text-secondary-800">
-                Principales áreas de acción:
-              </h4>
-              <ul class="grid grid-cols-1 gap-3">
-                <li class="flex items-start">
-                  <span class="text-primary-500 mr-2">●</span>
-                  <span
-                    >Análisis de datos para el manejo de basura y reciclaje.</span
-                  >
-                </li>
-                <li class="flex items-start">
-                  <span class="text-primary-500 mr-2">●</span>
-                  <span>Propuestas sobre contaminación ambiental.</span>
-                </li>
-                <li class="flex items-start">
-                  <span class="text-primary-500 mr-2">●</span>
-                  <span>Proyectos sociales para beneficio de la comunidad.</span
-                  >
-                </li>
-              </ul>
-              <p class="text-sm text-gray-500 italic mt-4">
-                * Debido a limitaciones de tiempo y recursos, estos proyectos se
-                desarrollan hasta la fase de idea o prototipo.
-              </p>
-            </div>
           </div>
         </div>
 
-        <!-- 3. Emprendimiento e Innovación -->
-        <div
-          class="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 flex flex-col hover:shadow-2xl transition-shadow lg:col-span-2"
-        >
+        <!-- 3. Eje de Desarrollo Profesional -->
+        <div class="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 flex flex-col hover:shadow-2xl transition-shadow lg:col-span-1">
           <div class="h-4 w-full bg-primary-500"></div>
           <div class="p-8 lg:p-10">
             <div class="flex items-center mb-8">
-              <div
-                class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mr-4"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6 text-primary-600"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+              <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
                 </svg>
               </div>
-              <h3 class="text-2xl font-bold">3. Emprendimiento e Innovación</h3>
+              <h3 class="text-2xl font-bold">Eje de Desarrollo Profesional</h3>
             </div>
-            <p class="text-gray-700 text-lg leading-relaxed mb-8 max-w-4xl">
-              Acompañamos a los estudiantes con visión emprendedora para que
-              transformen los datos en soluciones reales mediante programas
-              intensivos y acompañamiento experto.
+            <p class="text-gray-700 text-lg leading-relaxed mb-8">
+              Preparamos a los estudiantes para el mundo laboral desde los primeros semestres. Talleres de CV, portafolio y LinkedIn, simulacros de entrevistas técnicas, y conexión con profesionales y oportunidades del sector.
             </p>
-
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div class="p-6 bg-gray-50 rounded-xl border border-gray-100">
-                <h4 class="font-bold text-lg mb-3 text-primary-800 italic">
-                  Startup Weekend
-                </h4>
-                <p class="text-gray-600">
-                  Un evento intensivo diseñado para desarrollar ideas de negocio
-                  innovadoras basadas en datos.
-                </p>
-              </div>
-              <div class="p-6 bg-gray-50 rounded-xl border border-gray-100">
-                <h4 class="font-bold text-lg mb-3 text-primary-800 italic">
-                  Mentoría de Proyectos
-                </h4>
-                <p class="text-gray-600">
-                  Acompañamiento especializado para estudiantes con ideas
-                  innovadoras de alto impacto.
-                </p>
-              </div>
-              <div class="p-6 bg-gray-50 rounded-xl border border-gray-100">
-                <h4 class="font-bold text-lg mb-3 text-primary-800 italic">
-                  Competencias de Pitching
-                </h4>
-                <p class="text-gray-600">
-                  Prácticas de presentación que ayudan a desarrollar habilidades
-                  de comunicación y confianza.
-                </p>
-              </div>
-            </div>
           </div>
         </div>
 
-        <!-- 4. Showcase y Repositorio Digital -->
-        <div
-          class="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 flex flex-col hover:shadow-2xl transition-shadow lg:col-span-2"
-        >
+        <!-- 4. Eje de Interacción Social -->
+        <div class="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 flex flex-col hover:shadow-2xl transition-shadow lg:col-span-1">
           <div class="h-4 w-full bg-secondary-400"></div>
           <div class="p-8 lg:p-10">
             <div class="flex items-center mb-8">
-              <div
-                class="w-12 h-12 bg-secondary-100 rounded-lg flex items-center justify-center mr-4"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6 text-secondary-600"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-7.714 2.143L11 21l-2.286-6.857L1 12l7.714-2.143L11 3z"
-                  ></path>
+              <div class="w-12 h-12 bg-secondary-100 rounded-lg flex items-center justify-center mr-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-secondary-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path>
                 </svg>
               </div>
-              <h3 class="text-2xl font-bold">
-                4. Showcase y Repositorio Digital
-              </h3>
+              <h3 class="text-2xl font-bold">Eje de Interacción Social</h3>
             </div>
-            <p
-              class="text-gray-700 text-lg leading-relaxed mb-8 italic font-medium"
-            >
-              ¡Celebramos y compartimos el talento de nuestra comunidad!
+            <p class="text-gray-700 text-lg leading-relaxed mb-8">
+              Impacto más allá del aula. Voluntariado, proyectos con aplicación comunitaria, y participación en iniciativas de responsabilidad social, coordinadas con el Vicerrectorado de Interacción Social cuando sea posible, o por cuenta propia según las circunstancias.
             </p>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-              <div>
-                <h4 class="font-bold text-xl mb-4 flex items-center">
-                  <span class="w-2 h-2 bg-primary-500 rounded-full mr-3"></span>
-                  Showcase de Proyectos
-                </h4>
-                <p class="text-gray-600 leading-relaxed pl-5">
-                  Eventos semestrales donde los estudiantes exponen sus
-                  proyectos más destacados ante la comunidad universitaria e
-                  invitados externos.
-                </p>
-              </div>
-              <div>
-                <h4 class="font-bold text-xl mb-4 flex items-center">
-                  <span class="w-2 h-2 bg-primary-500 rounded-full mr-3"></span>
-                  Repositorio de Recursos
-                </h4>
-                <p class="text-gray-600 leading-relaxed pl-5">
-                  Mantenemos una biblioteca digital compartida que incluye
-                  materiales, códigos y datasets útiles para que todos puedan
-                  seguir construyendo e innovando.
-                </p>
-              </div>
-            </div>
           </div>
         </div>
+
       </div>
     </div>
   </section>
@@ -276,9 +113,7 @@ import Button from "../../components/UI/Button.astro";
   <section class="py-20 bg-gray-50 border-t border-gray-100">
     <div class="container mx-auto px-4">
       <div class="max-w-4xl mx-auto text-center">
-        <h2
-          class="text-3xl md:text-5xl font-bold mb-6 text-gray-900 text-center w-full"
-        >
+        <h2 class="text-3xl md:text-5xl font-bold mb-6 text-gray-900 text-center w-full">
           ¿Tienes una idea innovadora?
         </h2>
         <p class="text-xl mb-10 text-gray-600">

@@ -4,11 +4,11 @@ pubDate: 2025-03-01
 description: "Cómo desarrollamos el sitio web oficial de SOCIDAIN desde cero: arquitectura, tecnologías utilizadas y el proceso de diseño que refleja la identidad de nuestra sociedad científica."
 author: "Marco Salvatierra"
 image:
-  url: "/uploads/directiva/Marco Salvatierra.png"
+  url: "/uploads/fotoparablogmarco.webp"
   alt: "Marco Salvatierra - Desarrollador del Sitio Web de SOCIDAIN"
 tags: ["Desarrollo Web", "Astro", "TailwindCSS"]
 coverImage: "https://images.unsplash.com/photo-1547658719-da2b51169166?w=800"
-category: "Proyectos de Software"
+category: "Desarrollo"
 draft: false
 ---
 

@@ -17,12 +17,8 @@ const posts = allPosts.sort(
     new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime(),
 );
 
-const categories = [
-  "Todos",
-  "Proyectos de Software",
-  "Investigación Científica",
-  "Tutoriales & Análisis",
-];
+const uniqueCategories = [...new Set(posts.map(post => post.data.category || "General"))];
+const categories = ["Todos", ...uniqueCategories];
 
 const getCategoryCount = (cat: string) => {
   if (cat === "Todos") return posts.length;
@@ -53,7 +49,7 @@ const getCategoryCount = (cat: string) => {
                 const isActive = cat === "Todos";
                 const baseClasses = "px-6 py-2 rounded-full text-sm font-bold transition-all cursor-pointer filter-pill border-2";
                 const activeClasses = "bg-[#900033] border-[#900033] text-white";
-                const inactiveClasses = "bg-transparent border-[#900033] text-[#900033] hover:opacity-80";
+                const inactiveClasses = "bg-transparent border-[#900033] text-[#900033] hover:bg-[#900033] hover:text-white";
                 
                 return (
                   <button

@@ -1,37 +1,40 @@
 ---
 title: "Recuerdos SOCIDAIN"
 date: 2025-01-20
-location: "Campus Univalle"
+location: "Santa Cruz"
 image: "/uploads/comunidad/comunidad-3.webp"
-summary: "Un recorrido visual por los momentos más significativos de nuestra sociedad. Desde la inauguración hasta nuestros primeros talleres y encuentros."
+summary: "Un viaje académico a Santa Cruz: visitas al data center de TIGO, la sede Univalle Santa Cruz y valiosos momentos compartidos entre estudiantes de distintas gestiones."
 draft: false
 ---
 
 # Recuerdos SOCIDAIN
 
-A lo largo de nuestra trayectoria en SOCIDAIN, hemos compartido momentos inolvidables que han fortalecido nuestra comunidad científica. Estos recuerdos son el testimonio de nuestro crecimiento y pasión por los datos.
+Estudiantes de las gestiones 2023 y 2024 viajaron a Santa Cruz. Visitaron el data center de TIGO y la sede de Univalle Santa Cruz. Conocieron estudiantes de allá. Fue un viaje académico con mucho espacio para compartir y conocerse mejor entre compañeros de distintas gestiones.
 
 ## Nuestra Historia en Imágenes
 
-Aquí presentamos una recopilación de momentos clave que definen quiénes somos:
+![Viru Viru, primer destino](/uploads/comunidad/inaguracióndelasociedad-1-2.webp)  
+<span class="text-sm font-bold text-gray-700">Viru Viru, primer destino</span>  
+El viaje arrancó temprano y con hambre. Llegar al aeropuerto Viru Viru fue el primer checkpoint: desayuno, algo de caos, y las ganas de ver qué traía Santa Cruz.
 
-*Nuestros miembros compartiendo ideas.*
+![Base de operaciones](/uploads/comunidad/inaguracióndelasociedad-1.webp)  
+<span class="text-sm font-bold text-gray-700">Base de operaciones</span>  
+Los apartamentos fueron el punto de encuentro entre estudiantes de las gestiones 2023 y 2024. Compartir espacio con compañeros de otras promociones, intercambiar perspectivas y conocerse fuera del aula fue, sin duda, una de las mejores partes del viaje. Visitamos el data center de TIGO, la sede de Univalle Santa Cruz y tambien algunos sitios interesantes en la ciudad experiencias que valieron el viaje por sí solas.
 
-![Inauguración Parte 1](/uploads/comunidad/inaguracióndelasociedad-1-2.webp)
-*Momentos de la gran inauguración de nuestra sociedad.*
+![Los de siempre](/uploads/comunidad/inaguracióndelasociedad-2.webp)  
+<span class="text-sm font-bold text-gray-700">Los de siempre</span>  
+Mismo aeropuerto, misma mesa, distintas conversaciones. Algunos momentos no necesitan más explicación que esa.
 
-![Inauguración Parte 2](/uploads/comunidad/inaguracióndelasociedad-1.webp)
-*Captura de nuestro inicio oficial.*
+![Última noche, toda la energía](/uploads/comunidad/titanic.png)  
+<span class="text-sm font-bold text-gray-700">Empezando con toda la energía</span>  
+Sin dejar las maletas en el departamento (por que no sabiamos como abrir la puerta) y con el cronograma apretado, todavía quedaba tiempo para esto. Prueba de que el grupo llegó con buena energía y se fue con más.
 
-![Inauguración Parte 3](/uploads/comunidad/inaguracióndelasociedad-2.webp)
-*Celebrando el inicio de este gran proyecto académico.*
+![Celebración en el patio](/uploads/comunidad/comunidad-5.webp)  
+<span class="text-sm font-bold text-gray-700">Celebración en el patio</span>  
+Un cumpleaños, el pasto como escenario y todo el grupo presente. Sin mucha planificación, con mucho resultado. Así suelen ser los mejores momentos en la carrera.
 
-![Taller Titanic](/uploads/comunidad/titanic.png)
-*Nuestras primeras experiencias.*
+![Entre clases también se celebra](/uploads/comunidad/comunidad-4.webp)  
+<span class="text-sm font-bold text-gray-700">Entre clases también se celebra</span>  
+No siempre hace falta salir para pasarla bien. A veces basta el aula, los compañeros de siempre y una excusa para detenerse un momento.
 
-![Encuentro de Comunidad](/uploads/comunidad/comunidad-5.webp)
-*Fortaleciendo lazos entre estudiantes.*
-
-![Trabajo en Equipo](/uploads/comunidad/comunidad-4.webp)
-
-Cada imagen cuenta una historia de descubrimiento y aprendizaje. ¡Sigamos construyendo más recuerdos juntos!
+<p class="text-sm text-gray-400 mt-8">Fotografías: Javier Mamani Castro</p>

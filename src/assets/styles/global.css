@@ -84,3 +84,12 @@ details > summary svg {
 details[open] > summary svg {
   transform: rotate(45deg);
 }
+
+a.btn-download {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+a.btn-download:hover {
+  color: #ffffff !important;
+}
