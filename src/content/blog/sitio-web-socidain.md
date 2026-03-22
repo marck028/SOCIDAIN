@@ -54,8 +54,9 @@ dependencias innecesarias, sin sobrecarga.
 
 ## Integración con WhatsApp
 
-Contacto directo con la directiva desde cualquier parte del sitio. 
+Función implementada por parte de marco para un contacto directo con la directiva desde cualquier parte del sitio. 
 Sin formularios, sin esperas.
+Quien recibe los mensajes es Ario para poder derivarlos a la persona indicada en base a su consulta.
 
 ## El resultado
 

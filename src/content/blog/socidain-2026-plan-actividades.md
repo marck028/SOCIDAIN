@@ -114,7 +114,7 @@ Asumir la presidencia de SOCIDAIN fue una decisión consciente. No una
 casualidad. Vi que había algo que podía mejorar, y decidí ser parte 
 de esa mejora.
 
-Podría haber dejado pasar este rol. Simplemente cursar, entregar, 
+Podría haber dejado pasar este rol. Centrarme solo en cursar, entregar, 
 aprobar. Pero elegí esto porque creo que hay algo valioso que construir 
 aquí, y porque sé que junto con las personas que me acompañan podemos 
 aportar de manera significativa a la carrera.
