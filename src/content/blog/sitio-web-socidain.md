@@ -21,14 +21,14 @@ Los dos teníamos claro este año que SOCIDAIN debía finalmente tener un sitio 
 lo planificamos, y cuando llegó el momento, nos pusimos a trabajar.
 
 Marco se encargó de la arquitectura y el desarrollo técnico. 
-Javier del contenido, las correcciones visuales y todas las 
+Javier del contenido, las correcciones de UX/UI y todas las 
 fotografías del sitio
 
 
 Marco tomó la parte técnica: arquitectura, componentes, sistema de 
 layouts, colecciones de contenido, diseño visual. Javier se encargó 
 de la dirección editorial: qué secciones iban, cómo se organizaba 
-la información, qué se redactaba y cómo. Fue una división natural, 
+la información, redacción y tambien corregir algunos bugs de diseño y implementar funciones como los pdfs en dentro de los blogs. Fue una división natural, 
 sin mucho protocolo.
 
 El stack lo definimos en conjunto: **Astro** como framework de 
