@@ -14,4 +14,4 @@ En este taller aprenderás exactamente cómo funciona ese filtro y cómo constru
 ### Detalles del Taller
 - **Hora**: 14:30
 - **Facilitador**: Giovany Zapata Inturias — Financial & Data Science Professional (Python, SQL, Machine Learning, estrategia de inversión)
-- **Cupos**: Limitados
+- **Cupos**: 30 estudiantes

@@ -19,9 +19,4 @@ Datos del evento:
 
 Nota importante: La invitación es de carácter personal e intransferible. Se solicita asistir sin acompañantes para garantizar una experiencia organizada y cómoda para todos los miembros.
 
-<div class="my-8">
-  <video controls width="100%" class="rounded-lg shadow-lg">
-    <source src="/uploads/video-invitacion-posesion.mp4" type="video/mp4" />
-    Tu navegador no soporta el tag de video.
-  </video>
-</div>
+

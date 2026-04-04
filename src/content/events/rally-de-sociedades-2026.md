@@ -15,4 +15,4 @@ El **Rally de Sociedades** es la actividad de bienvenida de la Facultad de Cienc
 - **Hora (Estudiantes)**: 14:00
 - **Hora (Montaje de sociedades)**: 12:00
 - **Organiza**: Facultad de Ciencias Empresariales y Sociales — Univalle
-- **Color asignado a SOCIDAIN**: Azul — Ciencia de Datos
+- **Color asignado a SOCIDAIN**: Azul — Ciencia de Datos (venir con una prenda azul)
