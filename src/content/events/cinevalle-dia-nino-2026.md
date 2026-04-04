@@ -22,7 +22,7 @@ Nuestra meta interinstitucional es garantizarles un momento completamente inolvi
 
 ### ¿Cómo participará SOCIDAIN exactamente?
 
-Estaremos apoyando activamente en la labor social. Como SOCIDAIN, nos reuniremos para armar las canastas de sorpresas que alegrarán el día de nuestros pequeños invitados. 
+aportaremos con golosinas para las canastitas de los niños que asistiran al evento
 
 **Forma de apoyo actual:** Estamos recibiendo aportes para llenar estas canastitas. Puedes sumar tus aportes y los recopilaremos institucionalmente como SOCIDAIN hasta el **9 de abril.**
 
