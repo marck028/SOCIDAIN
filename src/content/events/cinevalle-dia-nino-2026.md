@@ -2,7 +2,7 @@
 title: "Cinevalle: Día del Niño con Interacción Social"
 date: 2026-04-11
 location: "Torre América Univalle"
-image: "https://images.unsplash.com/photo-1516627145497-ae6968895b74?q=80&w=800"
+image: "https://www.boliviabella.com/dia-del-nino.html"
 summary: "Campaña de recolección de golosinas y acompañamiento voluntario para brindar un momento inolvidable a más de 200 niños por el Día del Niño en Cinevalle."
 tags: ["Voluntariado", "Social", "Interacción", "Día del Niño"]
 ---
