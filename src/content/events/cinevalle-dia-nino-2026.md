@@ -2,7 +2,7 @@
 title: "Cinevalle: Día del Niño con Interacción Social"
 date: 2026-04-11
 location: "Torre América Univalle"
-image: "https://www.boliviabella.com/dia-del-nino.html"
+image: "https://cdn.bolivia.com/sdi/2019/04/12/en-el-municipio-santivanez-celebraron-el-dia-de-lanina-y-el-nino-727755.jpg"
 summary: "Campaña de recolección de golosinas y acompañamiento voluntario para brindar un momento inolvidable a más de 200 niños por el Día del Niño en Cinevalle."
 tags: ["Voluntariado", "Social", "Interacción", "Día del Niño"]
 ---
